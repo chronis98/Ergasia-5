@@ -15,7 +15,7 @@ for i in range(1001):
      if i%(i%10+(i/10)%10+i/100)==0:
         harshad.append(i)
      if i%10*(i/10)%10*i/100>0:
-       if i%(i%10*((i/10)%10)*i/100)==0:
+       if i%(i%10*((i/10)%10)*(i/100))==0:
           table2.append(i)
   else:
         harshad.append(i)
