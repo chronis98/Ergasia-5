@@ -1,6 +1,6 @@
 harshad=[]
 table2=[]
-for i in range(1000):
+for i in range(1001):
   if i<=9:
     if i>0:
       harshad.append(i)
